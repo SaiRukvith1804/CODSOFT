@@ -34,10 +34,15 @@ The project utilizes a dataset containing labeled SMS messages (Spam or Ham). Th
 - **Naive Bayes Model**: Quick and effective for spam detection.
 - **SVM Model**: Provides higher accuracy with better performance on text classification.
 
-## Example Input and Output
+## Requirements
+- Python 3.x
+- Required Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
 
+## Example Input and Output
+```
 Enter an SMS message (or type 'exit' to stop): Congratulations! You have won a lottery.
 Naive Bayes Prediction: Spam
 SVM Prediction: Spam
+```
 
 
